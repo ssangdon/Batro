@@ -1,0 +1,36 @@
+.ProductCardSmallWrapper {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.ProductCardSmallImage {
+    width: calc((100vw - 50px) / 2 );
+    height: calc((100vw - 50px) / 2 );
+    max-width: 270px;
+    max-height: 270px;
+    /* height: 100%; */
+    /* object-fit: cover;   */
+    max-width: 600px;
+    /* border: 1px solid #F4F4F4; */
+    /* border: 1px solid black; */
+    border-radius: 4px;
+}
+
+.ProductCardSmallPrice {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #555555;
+}
+
+.ProductCardSmallTitle {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #666666;
+}

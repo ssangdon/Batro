@@ -1,0 +1,23 @@
+.SelectSliderWrapper {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    background-color: white;
+}
+
+.SelectSliderItem {
+    min-width: fit-content;
+    padding: 0px 12px;
+    display: flex;
+    width: fit-content;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

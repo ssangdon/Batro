@@ -1,0 +1,17 @@
+.InputSubmitWrapper {
+    border-radius: 16px;
+    background-color: #39BA5D;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 90px;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.InputSubmitWrapper:hover {
+    opacity: 0.7;
+}
